@@ -2,25 +2,9 @@ import React, { useEffect, useState } from 'react';
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import News from "./components/news.components";
-// import Form from "./components/form.component";
-
 const App = () => {
 
   const API_KEY = ""; //place your key here
- 
-  // setResult = async(e) => {
-  //   const newsfeed=e.target.elements.News.value
-  //   const jokes=e.target.elements.jokes.value
-  //   if( newsfeed ) {
-
-  //   }
-  //   else if( jokes ) {
-
-  //   }
-  //   else{
-  //     this.setState({error: true});
-  //   }
-  // }
 
   const [news, setNews] = useState([]);
   const [search, setSearch] = useState('in');
