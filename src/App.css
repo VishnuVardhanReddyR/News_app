@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+
+}
+
+select,option {
+  background-color: rgb(228, 120, 120) !important;
+  color: #ebebeb !important;
+  box-shadow: none !important;
+  margin: 5px 5px 5px 5px;
+
+}
+
+select,option:focus{
+  box-shadow: none !important;
+  box-decoration-break: unset !important;
+}
+
+.column {
+
+  float: right;
+  align-items: center;
+  vertical-align: bottom;
+  border: cornsilk;
+  width: 50%;
+  padding: 10px;
+  height: auto; /* Should be removed. Only for demonstration */
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  margin: auto;
+}
+h1{
+  color: #ebebeb;
+  background-color: black;
+}
+
